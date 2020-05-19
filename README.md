@@ -43,7 +43,7 @@ git commit -m ":tada: Initialize Repo"
 emoji                                   | emoji 代码                   | commit 说明
 :--------                               | :--------                    | :--------
 :tada: (庆祝)                           | `:tada:`                     | 初次提交
-:sparkles: (火花)                       | `:sparkles:`                 | 引入新功能
+:new: (全新)                            | `:new:`                      | 引入新功能
 :bookmark: (书签)                       | `:bookmark:`                 | 发行/版本标签
 :bug: (bug)                             | `:bug:`                      | 修复 bug
 :ambulance: (急救车)                    | `:ambulance:`                | 重要补丁
@@ -59,20 +59,24 @@ emoji                                   | emoji 代码                   | commi
 :zap: (闪电)<br>:racehorse: (赛马)      | `:zap:`<br>`:racehorse:`      | 提升性能
 :chart_with_upwards_trend: (上升趋势图) | `:chart_with_upwards_trend:` | 添加分析或跟踪代码
 :rocket: (火箭)                         | `:rocket:`                   | 部署功能
-:white_check_mark: (白色复选框)         | `:white_check_mark:`         | 增加测试
-:memo: (备忘录)                         | `:memo:`                     | 撰写文档
+:white_check_mark: (白色复选框)         | `:white_check_mark:`           | 增加测试
+:memo: (备忘录)<br>:book: (书)          | `:memo:`<br>`:book:`          | 撰写文档
 :hammer: (锤子)                         | `:hammer:`                   | 重大重构
 :art: (调色板)                          | `:art:`                      | 改进代码结构/代码格式
 :fire: (火焰)                           | `:fire:`                     | 移除代码或文件
 :pencil2: (铅笔)                        | `:pencil2:`                  | 修复 typo
-:construction: (施工)                   | `:construction:`               | 工作进行中
+:construction: (施工)                   | `:construction:`             | 工作进行中
+:wastebasket: (垃圾桶)                  | `:wastebasket:`              | 废弃或删除
+:wheelchair: (轮椅)                     | `:wheelchair:`               | 可访问性
 :construction_worker: (工人)            | `:construction_worker:`      | 添加 CI 构建系统
 :green_heart: (绿心)                    | `:green_heart:`              | 修复 CI 构建问题
 :lock: (锁)                             | `:lock:`                     | 修复安全问题
 :whale: (鲸鱼)                          | `:whale:`                    | Docker 相关工作
 :apple: (苹果)                          | `:apple:`                    | 修复 macOS 下的问题
 :penguin: (企鹅)                        | `:penguin:`                  | 修复 Linux 下的问题
-:checkered_flag: (旗帜)                 | `:checked_flag:`             | 修复 Windows 下的问题
+:checkered_flag: (旗帜)                 | `:checkered_flag:`           | 修复 Windows 下的问题
+:twisted_rightwards_arrows: (交叉箭头)   | `:twisted_rightwards_arrows:`| 分支合并
+
 
 
 ### 如何在命令行中显示 emoji
@@ -91,6 +95,7 @@ emoji                                   | emoji 代码                   | commi
 - [atom git commit messages guide](https://github.com/atom/atom/blob/master/CONTRIBUTING.md#git-commit-messages)
 - [An emoji guide for your commit messages](https://gitmoji.carloscuesta.me/)
 - [程序员提交代码的 emoji 指南——原来表情文字不能乱用](https://www.h5jun.com/post/gitmoji.html)
+- [Ant Design 更新日志 emoji 规范](https://github.com/ant-design/ant-design/wiki/%E8%BD%AE%E5%80%BC%E8%A7%84%E5%88%99%E5%92%8C%E7%89%88%E6%9C%AC%E5%8F%91%E5%B8%83%E6%B5%81%E7%A8%8B#emoji-for-changelog)
 
 #### write a good commit message
 
